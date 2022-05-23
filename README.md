@@ -7,5 +7,19 @@ AccessBSTApp has the same purpose as the above application, but instead of using
 
 Both approaches were compared in terms of complexity (comparatory operations), it was seen that the AccessBSTApp approach was superior with significantly less comparisons and thus more effecient.
 
+# Build all classes first
 
+make 
+
+# Run AccessArrayApp
+
+make runarray
+
+# Run AccessBSTApp
+
+make runbst
+
+# Clean files in bin
+
+make clean
 
