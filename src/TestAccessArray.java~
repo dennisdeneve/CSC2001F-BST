@@ -1,0 +1,24 @@
+//automate testing for accessarrayapp
+public class TestAccessArray {
+
+public static void main (String[] args)
+{
+    //TestAccessArray T = new TestAccessArray();
+    if (args.length == 0);{
+        int x =0;
+        for (int i =10; i<400;i++){
+            if (AccessArrayApp.tradArr[x] != null){
+            
+            AccessArrayApp.printStudent( (AccessArrayApp.tradArr[x]).getID());
+            System.out.println("Number of operations within AccessArrayApp : ");
+            AccessArrayApp.getCount();
+            x++;
+            }
+            else{
+            continue;
+            }
+            }
+          }
+            
+}
+}
