@@ -9,17 +9,20 @@ Both approaches were compared in terms of complexity (comparatory operations), i
 
 # Build all classes first
 
-make 
+## make 
 
 # Run AccessArrayApp
 
-make runarray
+## make runarray
 
 # Run AccessBSTApp
 
-make runbst
+## make runbst
 
 # Clean files in bin
 
-make clean
+## make clean
 
+## NB
+
+This project has some source skeleton files that were not mine. Provided by UCT.
